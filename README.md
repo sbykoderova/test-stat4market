@@ -1,2 +1,2 @@
 # Тестовое задание для Stat4Market
-#### Демо: https://sbykoderova.github.io/Idaproject_Test/
+#### Демо: https://sbykoderova.github.io/Stat4Market_Test/
