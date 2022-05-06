@@ -1,0 +1,106 @@
+.header {
+    padding: 35px 0 66px;
+
+    &__container {
+        @include flex(space-between, center);
+        position: relative;
+    }
+
+    &__left {
+        @include flex(space-between, center);
+        gap: 31px;
+    }
+
+    &__logo {
+        width: 489px;
+        height: 80px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__right {
+        @include flex(space-between, center);
+        gap: 90px;
+    }
+}
+
+.nav {
+    &__list {
+        @include flex(space-between, center);
+        gap: 70px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 24px;
+        color: $dark-text;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: 0.2s linear;
+        position: relative;
+
+        &-select {
+            width: 13px;
+            height: 12px;
+            position: absolute;
+            top: 0;
+            right: -26px;
+        }
+
+        &:hover {
+            color: $pink;
+            border-bottom: 1px solid $pink;
+        }
+    }
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #331A2F;
+    display: flex;
+    gap: 7px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s linear;
+
+    &-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    &:hover {
+        color: $pink;
+        border-bottom: 1px solid $pink;
+    }
+}
+
+.btn {
+    width: 169px;
+    height: 45px;
+    font-family: inherit;
+    display: flex;
+    background: $pink;
+    border-radius: 12px;
+    font-size: 23px;
+    font-weight: 500;
+    color: $white;
+    border: none;
+    cursor: pointer;
+    padding: 11px 33px;
+    transition: background 0.3s linear;
+
+    svg {
+        width: 23px;
+        height: 23px;
+        margin-right: 14px;
+    }
+
+    &:hover {
+        background: #9a259a;
+    }
+}

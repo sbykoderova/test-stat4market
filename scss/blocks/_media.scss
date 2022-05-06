@@ -1,0 +1,371 @@
+@media (max-width: 1500px) {
+    .page {
+        background: none;
+    }
+
+    .header {
+        &__logo {
+            width: 380px;
+            height: 62px;
+        }
+    }
+
+    .nav {
+        &__link {
+            font-size: 18px;
+        }
+    }
+
+    .phone {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 152px;
+        height: 44px;
+        font-size: 18px;
+
+        svg {
+            margin-right: 11px;
+        }
+    }
+
+    .promo {
+        padding-bottom: 77px;
+
+        &__title {
+            font-size: 46px;
+            line-height: 65px;
+            margin-bottom: 40px;
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__price {
+            margin-bottom: 40px;
+        }
+
+        &__image {
+            max-width: 435px;
+            height: 435px;
+
+            &-stars {
+                width: 458px;
+                height: 416px;
+                top: 50px;
+                left: -10px;
+            }
+        }
+    }
+
+    .title-h2 {
+        font-size: 40px;
+        line-height: 64px;
+        width: 652px;
+    }
+
+    .confidence {
+        &__item-img {
+            width: 352px;
+            height: 362px;
+        }
+
+        &__item-descr {
+            width: 563px;
+            font-size: 20px;
+            line-height: 160%;
+        }
+    }
+
+    .education {
+        &__item {
+            max-width: 226px;
+            min-height: 203px;
+        }
+
+        &__descr {
+            margin-top: 20px;
+        }
+
+        &__title {
+            font-size: 20px;
+            line-height: 150%;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 160%;
+        }
+
+        &__subtitle {
+            font-size: 20px;
+            line-height: 160%;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        &__logo {
+            width: 372px;
+        }
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .btn {
+        width: 158px;
+        font-size: 20px;
+        line-height: 25px;
+
+        svg {
+            margin-right: 11px;
+        }
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .promo {
+        &__container {
+            display: block;
+            position: relative;
+        }
+
+        &__content {
+            width: 80%;
+        }
+
+        &__title {
+            width: 738px;
+        }
+
+        &__text {
+            margin-right: 80px;
+        }
+
+        &__image {
+            position: absolute;
+            bottom: 0px;
+            right: -42px;
+            max-width: 241px;
+            height: 410px;
+
+            &-stars {
+                display: none;
+            }
+        }
+    }
+
+    .confidence {
+        &__inner {
+            align-items: stretch;
+            gap: 60px;
+        }
+
+        &__item {
+            gap: 40px;
+        }
+
+        &__item-img {
+            width: 270px;
+            height: 277px;
+        }
+
+        &__item-descr {
+            width: 428px;
+        }
+    }
+
+    .education {
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 65px;
+        }
+
+        &__item {
+            max-width: 280px;
+        }
+
+        &__subtitle {
+            width: 684px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        &__right {
+            gap: 40px;
+        }
+    }
+
+    .promo {
+        &__title {
+            width: 674px;
+            margin-bottom: 20px;
+        }
+
+        &__price {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 725px) {
+    .header {
+        &__right {
+            gap: 20px;
+        }
+    }
+
+    .promo {
+        &__title {
+            width: 600px;
+        }
+    }
+
+    .title-h2 {
+        width: 100%;
+    }
+
+    .education {
+        &__subtitle {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .header {
+        &__container {
+            align-items: flex-start;
+        }
+
+        &__left {
+            padding-top: 5px;
+        }
+
+        &__logo {
+            width: 140px;
+        }
+    }
+
+    .promo {
+        &__title {
+            width: 420px;
+        }
+    }
+
+    .btn {
+        width: 103px;
+        font-size: 14px;
+        line-height: 28px;
+        padding: 8px 11px;
+    }
+
+    .education {
+        padding-bottom: 90px;
+
+        &__inner {
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        &__item {
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    .container {
+        max-width: 1580px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .header {
+        padding: 35px 0 40px;
+    }
+
+    .promo {
+        padding-bottom: 77px;
+
+        &__content {
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 26px;
+            line-height: 150%;
+            width: 280px;
+        }
+
+        &__text {
+            font-size: 18px;
+            line-height: 160%;
+            margin-right: 0;
+        }
+
+        &__image {
+            top: 0;
+            right: -15px;
+            max-width: 138px;
+            height: 245px;
+        }
+    }
+
+    .title-h2 {
+        font-size: 24px;
+        line-height: 150%;
+    }
+
+    .confidence {
+        padding-bottom: 100px;
+
+        &__inner {
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        &__item {
+            flex-direction: column;
+
+            &--reverse {
+                flex-direction: column-reverse;
+            }
+
+            &-descr {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .header {
+        padding: 35px 0 15px;
+    }
+
+    .promo {
+        &__title {
+            width: 220px;
+        }
+
+        &__head {
+            margin-bottom: 40px;
+        }
+    }
+}
