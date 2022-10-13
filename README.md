@@ -1,2 +1,2 @@
-# Тестовое задание для Stat4Market
+# Тестовое задание
 ### Демо: https://sbykoderova.github.io/test-stat4market/
